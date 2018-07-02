@@ -1,6 +1,4 @@
-using System;
 using Xunit;
-using Alzaitu.Result;
 
 namespace Alzaitu.Result.Tests
 {
@@ -40,12 +38,12 @@ namespace Alzaitu.Result.Tests
             }
         }
 
-        private IResult<string, string> GoodMethod()
+        private Result<string, string> GoodMethod()
         {
             return new Ok<string, string>("Hello there!");
         }
 
-        private IResult<string, string> BadMethod()
+        private Result<string, string> BadMethod()
         {
             return new Err<string, string>("General Kenobi!");
         }
