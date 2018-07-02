@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alzaitu.Result", "Alzaitu.Result\Alzaitu.Result.csproj", "{F3C46812-3E7E-44FD-B93E-7D82BF617DB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alzaitu.Result", "Alzaitu.Result\Alzaitu.Result.csproj", "{F3C46812-3E7E-44FD-B93E-7D82BF617DB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alzaitu.Result.Tests", "Alzaitu.Result.Tests\Alzaitu.Result.Tests.csproj", "{2D04D1F8-264F-4F2C-9398-5AD84F12D654}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alzaitu.Result.Tests", "Alzaitu.Result.Tests\Alzaitu.Result.Tests.csproj", "{2D04D1F8-264F-4F2C-9398-5AD84F12D654}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alzaitu.Result.Examples", "Alzaitu.Result.Examples\Alzaitu.Result.Examples.csproj", "{2C192453-EFA7-4B97-9E68-7236858112FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F3C46812-3E7E-44FD-B93E-7D82BF617DB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,5 +43,23 @@ Global
 		{2D04D1F8-264F-4F2C-9398-5AD84F12D654}.Release|x64.Build.0 = Release|Any CPU
 		{2D04D1F8-264F-4F2C-9398-5AD84F12D654}.Release|x86.ActiveCfg = Release|Any CPU
 		{2D04D1F8-264F-4F2C-9398-5AD84F12D654}.Release|x86.Build.0 = Release|Any CPU
+		{2C192453-EFA7-4B97-9E68-7236858112FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C192453-EFA7-4B97-9E68-7236858112FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C192453-EFA7-4B97-9E68-7236858112FE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2C192453-EFA7-4B97-9E68-7236858112FE}.Debug|x64.Build.0 = Debug|Any CPU
+		{2C192453-EFA7-4B97-9E68-7236858112FE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2C192453-EFA7-4B97-9E68-7236858112FE}.Debug|x86.Build.0 = Debug|Any CPU
+		{2C192453-EFA7-4B97-9E68-7236858112FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C192453-EFA7-4B97-9E68-7236858112FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C192453-EFA7-4B97-9E68-7236858112FE}.Release|x64.ActiveCfg = Release|Any CPU
+		{2C192453-EFA7-4B97-9E68-7236858112FE}.Release|x64.Build.0 = Release|Any CPU
+		{2C192453-EFA7-4B97-9E68-7236858112FE}.Release|x86.ActiveCfg = Release|Any CPU
+		{2C192453-EFA7-4B97-9E68-7236858112FE}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F3BA271-AAD8-4591-B7A9-C29AD434E53B}
 	EndGlobalSection
 EndGlobal

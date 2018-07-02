@@ -1,3 +1,4 @@
+using System.Linq;
 using Xunit;
 
 namespace Alzaitu.Result.Tests
@@ -35,6 +36,22 @@ namespace Alzaitu.Result.Tests
                 default:
                     Assert.True(false, "Result must match one of the two");
                     break;
+            }
+        }
+
+        [Fact]
+        public void TestEnum()
+        {
+            using (var res = new[]
+            {
+                GoodMethod(),
+                BadMethod(),
+                GoodMethod(),
+                BadMethod()
+            }.ToResultEnumerable())
+            {
+                Assert.True(res.EnumerateSuccess().Count() == 2, "Exactly two values should succeed");
+                Assert.True(res.EnumerateFailures().Count() == 2, "Exactly two values should fail");
             }
         }
 
